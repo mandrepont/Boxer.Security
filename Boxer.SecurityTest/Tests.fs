@@ -1,8 +1,9 @@
-module Tests
+module SayTest
 
 open System
 open Xunit
 
+
 [<Fact>]
-let ``My test`` () =
+let ``append text test`` () =
     Assert.True(true)
