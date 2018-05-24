@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Boxer.SecurityTest", "Boxer.SecurityTest\Boxer.SecurityTest.fsproj", "{6BC0A312-2270-4622-B870-017BAC6FC26E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Boxer.Security", "Boxer.Security\Boxer.Security.fsproj", "{5B881837-7BB7-4B33-98C8-2620174F4160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BC0A312-2270-4622-B870-017BAC6FC26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC0A312-2270-4622-B870-017BAC6FC26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC0A312-2270-4622-B870-017BAC6FC26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B881837-7BB7-4B33-98C8-2620174F4160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B881837-7BB7-4B33-98C8-2620174F4160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B881837-7BB7-4B33-98C8-2620174F4160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B881837-7BB7-4B33-98C8-2620174F4160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
