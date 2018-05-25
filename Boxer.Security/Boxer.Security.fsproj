@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Cryptography\AuthCipher.fs" />
     <Compile Include="ICryptography.fs" />
+    <Compile Include="Cryptography\AuthCipher.fs" />
   </ItemGroup>
 
 </Project>
