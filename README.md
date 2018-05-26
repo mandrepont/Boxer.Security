@@ -1,0 +1,3 @@
+# Boxer.Security [![Build Status](https://travis-ci.com/mandrepont/Boxer.Security.svg?branch=master)](https://travis-ci.com/mandrepont/Boxer.Security)
+Security library for conquer online.
+More information coming soon...
