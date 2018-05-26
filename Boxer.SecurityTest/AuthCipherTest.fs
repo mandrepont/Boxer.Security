@@ -1,4 +1,4 @@
-﻿module Box.SecurityTest.AuthCipherTest
+module Box.SecurityTest.AuthCipherTest
 
 open Xunit
 open Boxer.Security.Cryptography
@@ -47,5 +47,4 @@ let ``Encipher test`` () =
 
 [<Fact>]
 let ``Decipher test`` () = 
-    AuthCipher.decipher { context with DecryptCounter = { Count = encipherBuffer.Length } } encipherBuffer
-    |> should equal baseBuffer
+    AuthCipher.decipher context baseBuffer |> should equal encipherBuffer
