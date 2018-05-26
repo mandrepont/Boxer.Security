@@ -1,0 +1,7 @@
+language: fsharp
+mono: none
+dotnet: 2.0.0
+script:
+  - dotnet restore
+  - dotnet build ./Boxer.Security/
+  - dotnet test ./Boxer.SecurityTest/
